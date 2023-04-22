@@ -1,0 +1,429 @@
+<!--Shopping Explorer-->
+<div class="container" style="background-color: rgb(241, 231, 250); margin-bottom: 10px; margin-top: 10px;">
+    <div class="row text-center">
+        <div class="col-md-10">
+            <h2>Explore Products</h2>
+        </div>
+        <div class="col-md-2">
+            <a routerLink="/cart" routerLinkActive="active" style="color: black; font-size: larger; font-weight: bold;">VIEW CART</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="container" style="background-color: white; margin: 10px;">
+                <div class="row">
+                    <img src="assets/book1.jpg" alt="">
+                    <div class="badges">
+                        <span class="badge bg-danger">new</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6>EVERYTHING YOU NEED TO ACE COMPUTER SCIENCE AND CODING IN ONE BIG FAT NOTEBOOK</h6>
+                </div>
+                <div class="row">
+                    <p>Price rs.3,250</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                    </div>
+                    <div class="col-md-2">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container" style="background-color: white; margin: 10px;">
+                <div class="row">
+                    <img src="assets/book2.png" alt="">
+                </div>
+                <div class="row">
+                    <H6>CODE COMPLETE</H6>
+                </div>
+                <div class="row">
+                    <p>Price rs.715</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                    </div>
+                    <div class="col-md-2">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container" style="background-color: white; margin: 10px;">
+                <div class="row">
+                    <img src="assets/book3.png" alt="">
+                    <div class="badges">
+                        <span class="badge bg-danger">new</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <H6>A Programmer Guide to Computer Science</H6>
+                </div>
+                <div class="row">
+                    <p>Price rs.1,985</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                    </div>
+                    <div class="col-md-2">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container" style="background-color: white; margin: 10px;">
+                <div class="row">
+                    <img src="assets/book4.jpg" alt="" width="100%" height="300px">
+                </div>
+                <div class="row">
+                    <h6>REAL TIME CODING</h6>
+                </div>
+                <div class="row">
+                    <p>Price rs.655</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                    </div>
+                    <div class="col-md-2">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="container" style="background-color: white; margin: 10px;">
+                <div class="row">
+                    <img src="assets/book5.jfif" alt="" height="300px">
+                </div>
+                <div class="row">
+                    <h6>THE CLEAN CODDER</h6>
+                </div>
+                <div class="row">
+                    <p>Price rs.999</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                    </div>
+                    <div class="col-md-2">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container" style="background-color: white; margin: 10px;">
+                <div class="row">
+                    <img src="assets/book6.png" alt="" height="300px">
+                    <div class="badges">
+                        <span class="badge bg-danger">new</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6>THE CLEAN CODER BY ROBERT C.MARTIN </h6>
+                </div>
+                <div class="row">
+                    <p>Price rs.819</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                    </div>
+                    <div class="col-md-2">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container" style="background-color: white; margin: 10px;">
+                <div class="row">
+                    <img src="assets/book7.jfif" alt="" height="300px" width="100%">
+                    <div class="badges">
+                        <span class="badge bg-danger">new</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6>CORE JAVA</h6>
+                </div>
+                <div class="row">
+                    <p>Price rs.333</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                    </div>
+                    <div class="col-md-2">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="container" style="background-color: white; margin: 10px;">
+                <div class="row">
+                    <img src="assets/book8.png" alt="" height="300px">
+                </div>
+                <div class="row">
+                    <h6>THE COMPLETE REFERNCE JAVA EDITION SEVENTH</h6>
+                </div>
+                <div class="row">
+                    <p>Price rs.1,249</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                    </div>
+                    <div class="col-md-2">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--click to view more-->
+<div class="contaiiner text-center" style="margin-bottom: 120px;">
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-light" (click)="showMoreImage()" style="color: black; background-color: rgb(240, 240, 133);">VIEW MORE</button>
+        </div>
+    </div>
+</div>
+<!--more items list-->
+<div *ngIf="shoeImages">
+    <div class="container" style="background-color: rgb(241, 231, 250); margin-bottom: 20px;">
+
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="container" style="background-color: white; margin: 10px;">
+                    <div class="row">
+                        <img src="assets/book9.jfif" alt="">
+                    </div>
+                    <div class="row">
+                        <h6>Data Science And Big Data Analytics</h6>
+                    </div>
+                    <div class="row">
+                        <p>Price rs.3,250</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                        </div>
+                        <div class="col-md-2">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="container" style="background-color: white; margin: 10px;">
+                    <div class="row">
+                        <img src="assets/book10.jfif" alt="" width="100%" height="300px">
+                        <div class="badges">
+                            <span class="badge bg-danger">new</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h6>DATA ANALYTICS</h6>
+                    </div>
+                    <div class="row">
+                        <p>Price rs.715</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                        </div>
+                        <div class="col-md-2">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="container" style="background-color: white; margin: 10px;">
+                    <div class="row">
+                        <img src="assets/book11.jpg" alt="" width="100%">
+                    </div>
+                    <div class="row">
+                        <h6>PYTHON</h6>
+                    </div>
+                    <div class="row">
+                        <p>Price rs.1,985</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                        </div>
+                        <div class="col-md-2">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="container" style="background-color: white; margin: 10px;">
+                    <div class="row">
+                        <img src="assets/book12.jpg" alt="" width="100%" height="300px">
+                        <div class="badges">
+                            <span class="badge bg-danger">new</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h6>Data Science For Beginners</h6>
+                    </div>
+                    <div class="row">
+                        <p>Price rs.655</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                        </div>
+                        <div class="col-md-2">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="container" style="background-color: white; margin: 10px;">
+                    <div class="row">
+                        <img src="assets/book13.jpg" alt="" height="300px">
+                    </div>
+                    <div class="row">
+                        <h6>THE COMPLETE REFERNCE MYSQL</h6>
+                    </div>
+                    <div class="row">
+                        <p>Price rs.999</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                        </div>
+                        <div class="col-md-2">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="container" style="background-color: white; margin: 10px;">
+                    <div class="row">
+                        <img src="assets/book14.webp" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="row">
+                        <h6>Mastering Mysql For Web </h6>
+                    </div>
+                    <div class="row">
+                        <p>Price rs.819</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                        </div>
+                        <div class="col-md-2">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="container" style="background-color: white; margin: 10px;">
+                    <div class="row">
+                        <img src="assets/book15.jpg" alt="" width="100%" height="300px">
+                        <div class="badges">
+                            <span class="badge bg-danger">new</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h6>Computer Science Python</h6>
+                    </div>
+                    <div class="row">
+                        <p>Price rs.333</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                        </div>
+                        <div class="col-md-2">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="container" style="background-color: white; margin: 10px;">
+                    <div class="row">
+                        <img src="assets/book16.jpg" alt="" width="100%" height="300px">
+                        <div class="badges">
+                            <span class="badge bg-danger">new</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h6>COMPUTER SCIENCE PRACTICE AND PROJECT WORKBOOK </h6>
+                    </div>
+                    <div class="row">
+                        <p>Price rs.1,249</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <button (click)="addtocart()"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                        </div>
+                        <div class="col-md-2">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="bookh">
+    <div class="container">
+        <form #cartdata="ngForm" (ngSubmit)="insertcart(cartdata)">
+            <div class="container">
+                <h5>ADD TO Cart</h5>
+                <div class="row">
+                    <input type="text" name="cartname" id="cartname" #cartname (ngModel)="cartname"
+                        placeholder="ENTER BOOK NAME">
+                </div>
+                <div class="row">
+                    <input type="number" name="cartprice" id="cartprice" #cartprice (ngModel)="cartprice"
+                        placeholder="ENTER BOOK PRICE">
+                </div>
+                <div class="row">
+                    <input type="number" name="cartqan" id="cartqan" #cartqan (ngModel)="cartqan"
+                        placeholder="ENTER QUANITY">
+                </div>
+                <div class="row">
+                    <input type="date" name="date" id="date" #date (ngModel)="date" placeholder="ENTER DATE ">
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <input type="submit" name="" id="" value="ADD"
+                            style="background-color: rgb(252, 252, 150); border-radius: 30px; color: black; font-weight: bold;">
+                    </div>
+
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+</div>

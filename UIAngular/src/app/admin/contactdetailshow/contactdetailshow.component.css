@@ -1,0 +1,12 @@
+th , td{
+    border: 2px solid black;
+}
+th{
+    background-color: rgb(253, 213, 213);
+}
+th:hover{
+    background-color: lightcyan;
+}
+td{
+    background-color: lightgreen;
+}

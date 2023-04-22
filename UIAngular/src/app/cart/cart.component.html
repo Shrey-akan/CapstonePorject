@@ -1,0 +1,27 @@
+<div class="containner text-center" style="margin: 30px;">
+    <h4>CART DETAILS</h4>
+    <div class="row">
+        <table>
+            <thead>
+                <tr style="background-color: rgb(143, 236, 143);">
+                    <th>S.no.</th>
+                    <th>BOOK NAME</th>
+                    <th>BOOK PRICE</th>
+                    <th>BOOK QUANTITY</th>
+                    <th>DATE</th>
+                    <th>BUY NOW</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let d of data" style="background-color: rgb(216, 252, 216);">
+                    <td>{{d.cartid}}</td>
+                    <td>{{d.cartname}}</td>
+                    <td>{{d.cartprice}}</td>
+                    <td>{{d.cartqan}}</td>
+                    <td>{{d.date}}</td>
+                    <td><a routerLink="/buynow" routerLinkActive="active">BUY</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

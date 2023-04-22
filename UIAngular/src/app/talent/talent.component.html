@@ -1,0 +1,169 @@
+<div class="container" style="margin-top: 50px;margin-bottom: 50px;">
+    <div class="row text-center">
+        <h2>Our Talent Box</h2>
+        <p>Our talent box focuses on inculcating creativity in our learners. here we provide various activities. In the
+            form of digital videos<br>to flourish Skill & Development in the students using our latest technology.</p>
+    </div>
+</div>
+
+<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="container ccvvcc">
+                <div class="box1">
+                    <div class="overlay">
+                        <div class="content">
+                            <p>Indian & Western Music
+
+                                Guitar Tutorials
+
+                                Violin Tutorials
+
+                                Drum Beat Tutorials
+
+                                Poem Recitation
+
+                                Yoga Training
+
+                                Theatre & Drama
+
+                                Dance
+
+                                Instant Cooking/Baking</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="container ccvvcc">
+                <div class="box1">
+                    <div class="overlay">
+                        <div class="content">
+                            <p>Rangoll
+
+                                Self-defence Training
+
+                                Personality Development
+
+                                Table tennis
+
+                                Canvas Painting -
+
+                                Art & Craft
+
+                                Mehndi
+
+                                Table Manners classes
+
+                                Block Printing</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+
+            <h5> Foreign Languages</h5>
+            <h6> Phonics Classes,</h6>
+            <p>These activities are tentative and for indicative purpose only. We assure you that the number of
+                activities will be more than the above mentioned activities.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid box2"
+    style=" margin-top: 50px; margin-bottom: 50px; background-image: url('../assets/splash.jfif'); background-repeat: no-repeat; ">
+    <div class="row text-center">
+        <h3 style="color: white; font-size: xx-large;">Compliments</h3>
+    </div>
+    <div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+
+                        </div>
+                        <div class="col-md-6">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"
+                style="background-color: rgb(247, 147, 65); box-shadow: 0 10px 20px rgb(141, 201, 241);">
+                <div class="container">
+                    <div class="row">
+                        <h3>
+                            SEND US A MESSAGE
+                        </h3>
+                        <p>Let's get in touch. Just fill the form and let us know what you need. Your email address will
+                            not
+                            be published.</p>
+                    </div>
+                </div>
+                <form #contactdeyail="ngForm" (ngSubmit)="contactdata(contactdeyail)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="cstuname">Name :</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input type="text" name="cstuname" id="cstuname" #cstuname (ngModel)="cstuname"
+                                    placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="cstuemail">EMAIL ID :</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input type="email" name="cstuemail" id="cstuemail" #cstuemail (ngModel)="cstuemail"
+                                    placeholder="Your Contact Number">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="csubject">SUBJECT :</label>
+                            </div>
+                            <div class="col-md-8" ng-app="myApp" ng-controller="myCtrl">
+                                <input type="text" name="csubject" id="csubject" #csubject (ngModel)="csubject">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="cstunumber">CONTACT NUMBER :</label>
+                            </div>
+                            <div class="col-md-8" ng-app="myApp" ng-controller="myCtrl">
+                                <input type="number"  #cstunumber name="cstunumber" id="cstunumber" (ngModel)="cstunumber">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label for="message">Message:</label>
+                            </div>
+                            <div class="col-md-8">
+                                <textarea type="text" name="message" id="message" #message (ngModel)="message" cols="30" rows="3">Write Your Message</textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <input type="checkbox">
+                            </div>
+                            <div class="col-md-10">
+                                <label for="term">Accept <a href="">Terms</a> and <a href="">Privacy Policy</a> </label>
+                            </div>
+                        </div>
+                        <input type="submit" value="SUBMIT">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

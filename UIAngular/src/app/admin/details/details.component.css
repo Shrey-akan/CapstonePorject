@@ -1,0 +1,15 @@
+.detailch{
+    list-style: none;
+    font-size: xx-large;
+    border-radius: 80px;
+    padding: 20px;
+    margin: 10px;
+    border-style: dotted;
+    background-color: rgb(250, 194, 194);
+
+}
+.detailch:hover{
+    background-color: rgb(182, 247, 182);
+    border-radius: 140px;
+    border-style: dashed;
+}

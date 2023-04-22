@@ -1,0 +1,27 @@
+<div class="container" style="margin: 30px;">
+    <form #cartdata="ngForm" (ngSubmit)="updatecart(cartdata)">
+        <div class="container">
+            <h5>UPDATE TO Cart</h5>
+            <div class="row">
+                <input type="number" name="cartid" id="cartid" #cartid (ngModel)="cartid" placeholder="ID">
+            </div>  
+            <div class="row">
+                <input type="text" name="cartname" id="cartname" #cartname (ngModel)="cartname" placeholder="ENTER BOOK NAME">
+            </div>
+            <div class="row">
+                <input type="number" name="cartprice" id="cartprice" #cartprice (ngModel)="cartprice" placeholder="ENTER PRICE">
+            </div>
+            <div class="row">
+                <input type="number" name="cartqan" id="cartqan" #cartqan (ngModel)="cartqan" placeholder="ENTER BOOK QUANTITY">
+            </div>
+            <div class="row">
+                <input type="date" name="date" id="date" #date (ngModel)="date" placeholder="ENTER DATE">
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12" style="margin: 30px;">
+                    <button style="background-color: rgb(252, 252, 150); border-radius: 30px; color: black; font-weight: bold;"> <a routerLink="/buynow" routerLinkActive="active" >UPDATE </a></button>
+                </div>
+            </div>
+        </div>
+    </form>  
+</div>

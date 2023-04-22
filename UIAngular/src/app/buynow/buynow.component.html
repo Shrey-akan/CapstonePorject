@@ -1,0 +1,46 @@
+<div class="containner text-center" style="margin: 30px;">
+    <h4>PURCCHASE ITEMS</h4>
+    <div class="row">
+        <table style="margin: 10px;">
+            <thead>
+                <tr>
+                    <th>S.no.</th>
+                    <th>BOOK NAME</th>
+                    <th>BOOK PRICE</th>
+                    <th>BOOK QUANTITY</th>
+                    <th>DATE</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let d of data">
+                    <td>{{d.cartid}}</td>
+                    <td>{{d.cartname}}</td>
+                    <td>{{d.cartprice}}</td>
+                    <td>{{d.cartqan}}</td>
+                    <td>{{d.date}}</td>
+
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+<div class="containner text-center" style="padding: 20px; margin: 10px; ">
+    <div class="row">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-2" style="border: 2px solid black; box-shadow: 0cap; border-radius: 100px; background-color: rgb(176, 253, 176); color: black; font-size: larger;">
+            <a routerLink="/updatecart" routerLinkActive="active" style="color: black; text-decoration: none; font-weight: bold;">UPDATE CART DETAILS</a>
+        </div>
+        <div class="col-md-2" style="border: 2px solid black; box-shadow: 0cap; border-radius: 100px; background-color: rgb(176, 253, 176); font-size: larger;">
+            <a routerLink="/deletecart" routerLinkActive="active" style="color: black;font-weight: bold; text-decoration: none;">DELETE CART DETAILS</a>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

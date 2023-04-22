@@ -1,0 +1,47 @@
+.box2{
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+    
+    
+     
+   
+}
+.ccvvcc{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgb(141, 201, 241);
+    border: 2px solid rgb(245, 174, 139);
+    border-radius: 10px;
+    
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transform: opacity 0.4s ease-in-out;
+    background: rgb(250, 226, 218);
+    cursor: pointer;
+    border: 1px dotted rgb(87, 85, 84);
+}
+.content{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ccvvcc:hover .overlay{
+    opacity: 0.8;
+    
+}

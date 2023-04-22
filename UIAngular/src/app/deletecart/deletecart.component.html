@@ -1,0 +1,15 @@
+<div class="container" style="margin: 30px;">
+    <form #cartdata="ngForm" (ngSubmit)="deletecart(cartdata)">
+        <div class="container">
+            <h5>DELETE TO Cart</h5>
+            <div class="row">
+                <input type="number" name="cartid" id="cartid" #cartid (ngModel)="cartid" placeholder="ENTER ID ">
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12" style="margin: 20px;">
+                    <button style="background-color: rgb(252, 252, 150); border-radius: 30px; color: black; font-weight: bold;"><a routerLink="/buynow" routerLinkActive="active">DELETE</a></button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

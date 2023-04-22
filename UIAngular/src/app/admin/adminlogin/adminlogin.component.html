@@ -1,0 +1,39 @@
+<div class="container text-center">
+    <h3>ADMIN LOGIN</h3>
+    <div class="row">
+            <form #adminlogin="ngForm" (ngSubmit)="admindata(adminlogin.value)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="username">USERNAME</label>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="text" name="username" id="username" #username (ngModel)="username">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="password"> PASSWORD</label>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="password" name="password" id="password" #password (ngModel)="password">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="submit" value="LOGIN" style="color: black; background-color: yellow; font-weight: bold;">
+                    </div>
+                </div>
+
+            </form>
+    </div>
+</div>
+<div *ngIf="val">
+    <a routerLink="details" routerLinkActive="active"> 
+        <div class="container" id="detail">
+            <h4>DETAILS</h4>
+        </div>
+    </a>
+</div>
+<router-outlet></router-outlet>

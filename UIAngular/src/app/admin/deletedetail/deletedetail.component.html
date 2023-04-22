@@ -1,0 +1,37 @@
+<div class="container" style="margin: 50px;">
+    <h2 class="text-center mt-3" style="margin: 30px;">
+        DELETE STUDENT DETAILS
+    </h2>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./assets/image4.jpg" alt="" width="550px" height="600px"
+                        style="border-radius: 20px; border-top-right-radius: 30px; border-bottom-left-radius: 40px;">
+                </div>
+                <div  class="col-md-6">
+                    <form #studentdetails="ngForm" (ngSubmit)="deletestudent(studentdetails)">
+                        <div class="container" style="margin-left: 100px;">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="studid">ID:</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="number" name="studid" id="studid" #studid (ngModel)="studid">
+                                </div>
+                            </div>
+                   
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="submit" name="" id="" value="SUBMIT" style="color: black; background-color: yellow; font-weight: bold;">
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+.feature{
+    background-color: rgb(255, 236, 238);
+    border-radius: 5px;
+}
+.feature2{
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+}

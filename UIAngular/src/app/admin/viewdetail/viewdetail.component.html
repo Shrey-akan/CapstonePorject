@@ -1,0 +1,81 @@
+<div align="center">
+   
+    <table border="1">
+          <thead>
+                    <tr>
+                       <th>ID</th>
+                       <th>NAME</th>
+                       <th>EMAIL</th>
+                       <th>CONTACT NUMBER</th>
+                       <th>HIGHEST QUALIFICATION</th>
+                       <th>PERCENTAGE</th>
+                       <th>COURCE NAME</th>
+                       <th>USERNAME</th>
+                       <th>PASSWORD</th>
+                    </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let d of data">
+               <td>{{d.studid}}</td>
+               <td>{{d.studname}}</td>
+               <td>{{d.studemail}}</td>
+               <td>{{d.studnumber}}</td>
+               <td>{{d.studeducation}}</td>
+               <td>{{d.studpercentage}}</td>
+               <td>{{d.studcourcename}}</td>
+               <td>{{d.studusername}}</td>
+               <td>{{d.studpassword}}</td>
+               
+            </tr>
+   </tbody>
+    </table>
+
+
+
+</div>
+
+
+<div class="container">
+   <div class="row">
+      <div class="col-md-4 box">
+        
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <a routerLink="insertstudent" routerLinkActive="active">INSERT STUDENT</a>
+               </div>
+               <div class="col-md-4">
+                  <i class="fa-regular fa-graduation-cap fa-2x"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-4 box">
+        
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <a routerLink="updatedetails" routerLinkActive="active">UPDATE STUDENT DETAILS</a>
+               </div>
+               <div class="col-md-4">
+                  <i class="fa-solid fa-pen-to-square fa-2x"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-4 box">
+        
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <a routerLink="deletedetail" routerLinkActive="active">DELETE STUDENT</a>
+               </div>
+               <div class="col-md-4">
+                  <i class="fa-solid fa-trash fa-2x"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<router-outlet></router-outlet>

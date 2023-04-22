@@ -1,0 +1,107 @@
+<div class="container" style="margin: 50px;">
+    <h2 class="text-center mt-3" style="margin: 30px;">
+        UPDATE  STUDENT DETAILS 
+    </h2>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./assets/image4.jpg" alt="" width="550px" height="600px"
+                        style="border-radius: 20px; border-top-right-radius: 30px; border-bottom-left-radius: 40px;">
+                </div>
+                <div  class="col-md-6">
+                    <form #studentdetails="ngForm" (ngSubmit)="updatestudent(studentdetails)">
+                        <div class="container" style="margin-left: 100px;">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="studid">ID:</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="number" name="studid" id="studid" #studid (ngModel)="studid">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="studname">NAME:</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="studname" id="studname" #studname (ngModel)="studname">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="studemail">EMAIL ID:</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="email" name="studemail" id="studemail" #studemail
+                                        (ngModel)="studemail">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="studnumber">CONTACT NUMBER:</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="number" name="studnumber" id="studnumber" #studnumber
+                                        (ngModel)="studnumber">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="studeducation">HIGHEST QUALIFICATION:</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="studeducation" id="studeducation" #studeducation
+                                        (ngModel)="studeducation">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="studpercentage">PERCENTAGE OBTAINED:</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="number" name="studpercentage" id="studpercentage" #studpercentage
+                                        (ngModel)="studpercentage">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="studcourcename">COURCE NAME:</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="studcourcename" id="studcourcename" #studcourcename
+                                        (ngModel)="studcourcename">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="studusername">CREATE USERNAME:</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="studusername" id="studusername" #studusername
+                                        (ngModel)="studusername">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="studpassword">CREATE PASSSWORD:</label>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="studpassword" id="studpassword" #studpassword
+                                        (ngModel)="studpassword">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="submit" name="" id="" value="SUBMIT" style="color: black; background-color: yellow; font-weight: bold;">
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div align="center">
+
+    <table border="1">
+        <thead>
+            <tr>
+               <th>S.no.</th>
+               <th>NAME</th>
+               <th>EMAIL ID</th>
+               <th>SUBJECT</th>
+               <th>CONTECT NUMBER</th>
+               <th>MESSAGE </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let d of data">
+               <td>{{d.cid}}</td>
+               <td>{{d.cstuname}}</td>
+               <td>{{d.cstuemail}}</td>
+               <td>{{d.csubject}}</td>
+               <td>{{d.cstunumber}}</td>
+               <td>{{d.message}}</td>
+               
+            </tr>
+   </tbody>
+    </table>
+</div>

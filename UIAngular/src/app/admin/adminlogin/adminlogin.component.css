@@ -1,0 +1,10 @@
+#detail{
+    border: 2px solid black;
+    padding: 50px;
+    align-items: center;
+    margin: 50px;
+    background-color: rgb(212, 237, 253);
+    color: black;
+    font-size: larger;
+    text-align: center;
+}
